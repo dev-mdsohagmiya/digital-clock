@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clockBox {
+  height: 100px;
+  width: 250px;
+  background-color: #475569;
+  border: 0.1rem solid white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.clockBoxContainer {
+  display: grid;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+body {
+  background-color: #1e293b;
+}
+.clockBoxContainer span {
+  font-size: 35px;
+  color: #dcfce7;
+}
