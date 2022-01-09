@@ -14,7 +14,7 @@
   box-sizing: border-box;
 }
 .clockBox {
-  height: 100px;
+  height: 80px;
   width: 250px;
   background-color: #475569;
   border: 0.1rem solid white;
